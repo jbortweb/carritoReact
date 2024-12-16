@@ -8,7 +8,7 @@ const CartItem = ({ thumbnail, price, title, quantity, addToCart }) => {
     <li>
       <img src={thumbnail} alt={title} />
       <div>
-        <strong>Mascara de ojos</strong> - {price}€
+        <strong>{title}</strong> - {price}€
       </div>
       <footer>
         <p>Cantidad: {quantity}</p>
