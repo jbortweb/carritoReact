@@ -6,6 +6,8 @@
   right: 0px;
   top: 0px;
   width: 200px;
+  height: 100vh;
+  overflow-y: scroll;
 }
 
 .cart img {
@@ -58,6 +60,10 @@
 .simbol {
   color: #fff;
   font-size: 20px;
+}
+
+.button-carrito {
+  margin-bottom: 50px;
 }
 
 .carrito {

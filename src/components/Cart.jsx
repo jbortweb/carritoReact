@@ -39,7 +39,7 @@ export function Cart() {
             />
           ))}
         </ul>
-        <button onClick={clearCart}>
+        <button onClick={clearCart} className="button-carrito">
           <ClearCartIcon />
           <p className="carrito">
             {cart.length > 0 ? 'Vaciar carrito' : 'Carrito vacío'}
